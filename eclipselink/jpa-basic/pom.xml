@@ -15,6 +15,20 @@
           <maven.compiler.target>1.9</maven.compiler.target>
       </properties>
   <dependencies>
+
+    <dependency>
+      <groupId>au.com.dius.pact.provider</groupId>
+      <artifactId>maven</artifactId>
+      <version>4.3.0-beta.2</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.20</version>
+    </dependency>
+
     <dependency>
   <groupId>junit</groupId>
   <artifactId>junit</artifactId>
